@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="km">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#2C6126" />
+  <title>HarvestFlow — Seller</title>
+  <link rel="icon" href="assets/ic-vegetable.png" />
+  <link rel="stylesheet" href="styles.css?v=7" />
+</head>
+<body>
+  <!-- The whole app lives inside one phone-sized frame (390 x 844 target). -->
+  <div class="stage">
+    <div class="phone" id="phone">
+      <div id="app" class="app"></div>
+      <div id="sheet-root"></div>
+      <div id="modal-root"></div>
+      <div id="toast-root" class="toast-root" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <!-- Load order matters: data → store (state + business logic) → i18n → ui components → screens → app (router/events) -->
+  <script src="js/icons.js?v=7"></script>
+  <script src="js/i18n.js?v=7"></script>
+  <script src="js/data.js?v=7"></script>
+  <script src="js/store.js?v=7"></script>
+  <script src="js/ui.js?v=7"></script>
+  <script src="js/screens.js?v=7"></script>
+  <script src="js/sheets.js?v=7"></script>
+  <script src="js/app.js?v=7"></script>
+</body>
+</html>
