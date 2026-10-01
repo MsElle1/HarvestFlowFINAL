@@ -118,12 +118,12 @@ function buildSeed() {
 
   const restaurant = {
     name: 'The Lab by Sokim Heng',
-    manager: 'Sokha Meas',
+    manager: 'Chenda Meas',
     phone: '012 345 678',
     verified: true,
   };
   const addresses = [
-    { id: 'a1', label: { km: 'ភោជនីយដ្ឋាន', en: 'Restaurant' }, recipient: 'Sokha Meas', phone: '012 345 678', line: 'No. 12, Street 240, Daun Penh, Phnom Penh' },
+    { id: 'a1', label: { km: 'ភោជនីយដ្ឋាន', en: 'Restaurant' }, recipient: 'Chenda Meas', phone: '012 345 678', line: 'No. 12, Street 240, Daun Penh, Phnom Penh' },
     { id: 'a2', label: { km: 'ផ្ទះបាយកណ្តាល', en: 'Central kitchen' }, recipient: 'Dara Chan', phone: '015 222 918', line: 'No. 88, Street 51, Boeng Keng Kang 1, Phnom Penh' },
   ];
 
